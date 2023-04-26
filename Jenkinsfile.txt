@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Get_Playbook') {
             steps {
-                git 'https://github.com/Badal-singh-dudy/ansiblerepo'
+                git 'https://github.com/Badal-singh-dudy/ansiblerepo.git'
             }
         }
         stage('Run_Playbook') {
